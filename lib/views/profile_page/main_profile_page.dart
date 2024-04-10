@@ -174,9 +174,8 @@ class _MainProfilePageState extends State<MainProfilePage> {
                 child: Scrollbar(
                   thumbVisibility: true,
                   thickness: 2,
-                  hoverThickness: 4,
+                  trackVisibility: true,
                   interactive: true,
-                  showTrackOnHover: true,
                   child: SingleChildScrollView(
                     child: Column(
                       children: [
